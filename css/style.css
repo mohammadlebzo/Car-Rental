@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    height: 110vh;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(36, 36, 36);
+    line-height: 100px;
+}
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar img{
+    width: 150px;
+    height: 100px;
+    margin-left: 50px;
+}
+.nav-bar p{
+    font-size: 25px;
+    margin-left: 600px;
+    color: rgb(230, 46, 45);
+}
+#input-forn{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(172, 188, 201);
+    margin: 60px;
+    float: left;
+    border-radius: 5px;
+    padding: 0 auto;
+}
+.table-cont{
+    padding: 100px;
+    background-color: rgb(172, 188, 201);
+    float: left;
+    margin: 60px;
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    overflow: scroll;
+}
+.table-load{
+    width: 300px;
+}
+.table-load, tr, td{
+    border: 1px solid black;
+}
+td{
+    margin: 10px;
+}
+.table-load img{
+    width: 100px;
+    height: 80px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    clear: both;
+    background-color: rgb(36, 36, 36);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(230, 46, 45);
+}
+label{
+    color: rgb(230, 46, 45);
+    font-size: 20px;
+}
+input{
+    width: 200px;
+    border-radius: 3px;
+}
+select{
+    width: 200px;
+    border-radius: 3px;
+}
+#submit{
+    background-color: rgb(230, 46, 45);
+    color: white;
+}
